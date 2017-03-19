@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<!-- saved from url=(0042)http://mydomen.by/bitrix/templates/main/?# -->
+<html lang="ru">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  <link href="stylesheet.css" type="text/css" rel="stylesheet">
+
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.js"></script>
+<link rel="stylesheet" href="css/bootstrap.css">
+<link rel="stylesheet" href="css/bootstrap-theme.css">
+
+<!-- left menu -->
+<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="js/scriptbreaker-multiple-accordion-1.js"></script>
+
+
+<link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/slick.css">
+  <link rel="stylesheet" type="text/css" href="css/slick-theme.css">
+</head>
+<body>
+<header>
+<div class="container-fluid">
+	<div class="col-md-3">
+		<a href="http://mydomen.by/"><img src="img/logo.png"></a>
+	</div>
+	<div class="col-md-6" id="head-central">
+		<div class="input-group">
+			<input type="text" class="form-control" placeholder="Поиск" aria-describedby="basic-addon2">
+			<span class="input-group-addon" id="basic-addon2"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></span>
+		</div>
+	</div>
+	<div class="col-md-3" id="basket">
+		<div id="phone">
+			<div id="phone-number">Тел.: (495) 215-2458</div>
+		</div>
+		<div id="bask-like" class="list-inline">
+			<div id="bask"><a href="#"><img src="img/basket.png">Ваша корзина <span>(0)</span></a></div>
+			<div><a href="#"><img src="img/liked.png">Избранное</a></div>
+		</div>
+	</div>
+</div>
+
+</header>
+<div class="container-fluid">
+<div class="col-md-9 col-md-push-3">
+	<nav id="primary_nav_wrap">
+		<ul>
+			<li><a href="#">О КОМПАНИИ</a>
+				<ul>
+					<li><a href="#">Миссия</a></li>
+					<li><a href="#">Гарантии и обязательства</a></li>
+					<li><a href="#">Карьера</a></li>
+					<li><a href="#">Информация и документация</a></li>
+					<li><a href="#">Каталог производителей</a></li>
+				</ul>
+			</li>
+			<li><a href="#">ПОЛУЧЕНИЕ И ОПЛАТА</a>
+				<ul>
+				    <li><a href="#">Получение</a>
+						<ul>
+							<li><a>Пункты самовывоза</a></li>
+							<li><a>Доставка</a></li>
+							<li><a>Почта РФ</a></li>
+							<li><a>Транспортные компании</a></li>
+						</ul>
+					</li>
+					<li><a href="">Оплата</a>
+						<ul>
+							<li><a>Наличный расчет</a></li>
+							<li><a>Банковская карта</a></li>
+							<li><a>Онлайн оплата</a></li>
+							<li><a>Банковский перевод</a></li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+			<li><a href="#">КОМПАНИЯМ</a></li>
+			<li><a href="#">Новости</a></li>
+			<li><a href="#">Контакты</a></li>
+		</ul>
+		<ul id="login"><li><a href="#" class="underline"><i class="glyphicon glyphicon-home" aria-hidden="true"></i> ВОЙТИ | РЕГИСТРАЦИЯ</a></li></ul>
+	</nav>
+	<div class="container-fluid">
+		<div class="span8">
+			<div id="myCarousel" class="carousel slide" data-interval="3000" data-ride="carousel">
+				<ol class="carousel-indicators">
+					<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+					<li data-target="#myCarousel" data-slide-to="1" class=""></li>
+					<li data-target="#myCarousel" data-slide-to="2" class=""></li>
+				</ol>
+				<div class="carousel-inner">
+					<div class="item active">
+						<img src="img/banner.png" alt="">
+						<div class="carousel-caption">
+							<h4>First Thumbnail label</h4>
+							<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+						</div>
+					</div>
+					<div class="item">
+						<img src="img/banner.png" alt="">
+						<div class="carousel-caption">
+							<h4>Second Thumbnail label</h4>
+							<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+						</div>
+					</div>
+					<div class="item">
+						<img src="img/banner.png" alt="">
+						<div class="carousel-caption">
+							<h4>Third Thumbnail label</h4>
+							<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+						</div>
+					</div>
+				</div>
+				<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+					<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+					<span class="sr-only">Previous</span>
+				</a>
+				<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+					<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+					<span class="sr-only">Next</span>
+				</a>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid">
+		<div class="middle-cat">
+			  <div class="cat-middle"><a href="#">Распродажа</a></div>
+			  <div class="cat-middle"><a href="#">|</a></div>
+			  <div class="cat-middle"><a href="#">Хиты продаж</a></div>
+			  <div class="cat-middle"><a href="#">|</a></div>
+			  <div class="cat-middle"><a href="#">Новинки</a></div>
+			  <div class="cat-middle"><a href="#">|</a></div>
+			  <div class="cat-middle"><a href="#">Акции</a></div>
+		</div>
+	</div>
+
+	<div class="container-fluid">
+		<div class="col-sm-4">
+			<div>
+				<div class="leader-cart">
+					<a href="#">
+						<img class="saleoff" src="img/sale.png">
+					</a>
+					<p style="padding-top:50px;"><b>Многофункциональный инструмент</b> Dremel 3000. F5620522214</p><br>
+				<p style="text-align: center; font-size:20px;">3 500 руб./шт.</p>
+				<p style="text-align: center; font-size:18px; color:#a39087;"><strike>4 199 руб./шт.</strike></p><br>
+					<form class="bought">
+						<button type="button" class="btn btn-danger">В корзину</button>
+						<button type="button" class="btn btn-default"><i class="glyphicon glyphicon-heart-empty"></i></button>
+						<button type="button" class="btn btn-default"><i class="glyphicon glyphicon-transfer"></i></button>
+					</form>
+				</div>
+			</div>
+		</div>
+		<div class="col-sm-4">
+
+		<div>
+			<div class="leader-cart">
+				<a href="#">
+					<img class="saleoff" src="img/sale.png">
+				</a>
+				<p style="padding-top:50px;"><b>Многофункциональный инструмент</b> Dremel 3000. F5620522214</p><br>
+				<p style="text-align: center; font-size:20px;">3 500 руб./шт.</p>
+				<p style="text-align: center; font-size:18px; color:#a39087;"><strike>4 199 руб./шт.</strike></p><br>
+					<form class="bought">
+						<button type="button" class="btn btn-danger">В корзину</button>
+						<button type="button" class="btn btn-default"><i class="glyphicon glyphicon-heart-empty"></i></button>
+						<button type="button" class="btn btn-default"><i class="glyphicon glyphicon-transfer"></i></button>
+					</form>
+				</div>
+			</div>
+		</div>
+		<div class="col-sm-4">
+
+		<div>
+			<div class="leader-cart">
+				<a href="#">
+					<img class="saleoff" src="img/sale.png">
+				</a>
+				<p style="padding-top:50px;"><b>Многофункциональный инструмент</b> Dremel 3000. F5620522214</p><br>
+				<p style="text-align: center; font-size:20px;">3 500 руб./шт.</p>
+				<p style="text-align: center; font-size:18px; color:#a39087;"><strike>4 199 руб./шт.</strike></p><br>
+					<form class="bought">
+						<button type="button" class="btn btn-danger">В корзину</button>
+						<button type="button" class="btn btn-default"><i class="glyphicon glyphicon-heart-empty"></i></button>
+						<button type="button" class="btn btn-default"><i class="glyphicon glyphicon-transfer"></i></button>
+					</form>
+				</div>
+			</div>
+		</div>
+		<div class="col-sm-4">
+			<div>
+				<div class="leader-cart">
+					<a href="#">
+						<img class="saleoff" src="img/sale.png">
+					</a>
+					<p style="padding-top:50px;"><b>Многофункциональный инструмент</b> Dremel 3000. F5620522214</p><br>
+				<p style="text-align: center; font-size:20px;">3 500 руб./шт.</p>
+				<p style="text-align: center; font-size:18px; color:#a39087;"><strike>4 199 руб./шт.</strike></p><br>
+					<form class="bought">
+						<button type="button" class="btn btn-danger">В корзину</button>
+						<button type="button" class="btn btn-default"><i class="glyphicon glyphicon-heart-empty"></i></button>
+						<button type="button" class="btn btn-default"><i class="glyphicon glyphicon-transfer"></i></button>
+					</form>
+				</div>
+			</div>
+		</div>
+		<div class="col-sm-4">
+
+		<div>
+			<div class="leader-cart">
+				<a href="#">
+					<img class="saleoff" src="img/sale.png">
+				</a>
+				<p style="padding-top:50px;"><b>Многофункциональный инструмент</b> Dremel 3000. F5620522214</p><br>
+				<p style="text-align: center; font-size:20px;">3 500 руб./шт.</p>
+				<p style="text-align: center; font-size:18px; color:#a39087;"><strike>4 199 руб./шт.</strike></p><br>
+					<form class="bought">
+						<button type="button" class="btn btn-danger">В корзину</button>
+						<button type="button" class="btn btn-default"><i class="glyphicon glyphicon-heart-empty"></i></button>
+						<button type="button" class="btn btn-default"><i class="glyphicon glyphicon-transfer"></i></button>
+					</form>
+				</div>
+			</div>
+		</div>
+		<div class="col-sm-4">
+
+		<div>
+			<div class="leader-cart">
+				<a href="#">
+					<img class="saleoff" src="img/sale.png">
+				</a>
+				<p style="padding-top:50px;"><b>Многофункциональный инструмент</b> Dremel 3000. F5620522214</p><br>
+				<p style="text-align: center; font-size:20px;">3 500 руб./шт.</p>
+				<p style="text-align: center; font-size:18px; color:#a39087;"><strike>4 199 руб./шт.</strike></p><br>
+					<form class="bought">
+						<button type="button" class="btn btn-danger">В корзину</button>
+						<button type="button" class="btn btn-default"><i class="glyphicon glyphicon-heart-empty"></i></button>
+						<button type="button" class="btn btn-default"><i class="glyphicon glyphicon-transfer"></i></button>
+					</form>
+				</div>
+			</div>
+		</div>
+
+</div>
+</div>
+
+
+
+
+
+	<div class="col-md-3 col-md-pull-9">
+		<div class="left_menu">
+			<div class="Catalog">
+				<h4>КАТАЛОГ ТОВАРОВ</h4>
+			</div>
+
+			<ul class="topnav">
+				<li><a href="#">Ручной инструмент</a>
+					<ul>
+						<li><a href="#">→ Ключи</a></li>
+						<li><a href="#">→ Головки торцевые и аксессуары</a></li>
+						<li><a href="#">→ Отвертки</a></li>
+						<li><a href="#">Отвертки с трехкомпонентной рукояткой</a></li>
+						<li><a href="#">Отвертки с деревянной рукояткой</a></li>
+						<li><a href="#">Отвертки плоские</a></li>
+					</ul>
+				</li>
+				<li><a href="#">Моментный и гидравлический инструмент</a>
+					<ul>
+						<li><a href="#">→ Ключи</a></li>
+						<li><a href="#">→ Головки торцевые и аксессуары</a></li>
+						<li><a href="#">→ Отвертки</a></li>
+						<li><a href="#">Отвертки с трехкомпонентной рукояткой</a></li>
+						<li><a href="#">Отвертки с деревянной рукояткой</a></li>
+						<li><a href="#">Отвертки плоские</a></li>
+						</ul>
+				</li>
+				<li><a href="#">Электроинструмент</a>
+					<ul>
+						<li><a href="#">→ Ключи</a></li>
+						<li><a href="#">→ Головки торцевые и аксессуары</a></li>
+						<li><a href="#">→ Отвертки</a></li>
+						<li><a href="#">Отвертки с трехкомпонентной рукояткой</a></li>
+						<li><a href="#">Отвертки с деревянной рукояткой</a></li>
+						<li><a href="#">Отвертки плоские</a></li>
+					</ul>
+				</li>
+				<li><a href="#">Оснастка к инструменту и станкам</a>
+					<ul>
+						<li><a href="#">→ Ключи</a></li>
+						<li><a href="#">→ Головки торцевые и аксессуары</a></li>
+						<li><a href="#">→ Отвертки</a></li>
+						<li><a href="#">Отвертки с трехкомпонентной рукояткой</a></li>
+						<li><a href="#">Отвертки с деревянной рукояткой</a></li>
+						<li><a href="#">Отвертки плоские</a></li>
+					</ul>
+				</li>
+				<li><a href="#">Крепежная техника</a>
+					<ul>
+						<li><a href="#">→ Ключи</a></li>
+						<li><a href="#">→ Головки торцевые и аксессуары</a></li>
+						<li><a href="#">→ Отвертки</a></li>
+						<li><a href="#">Отвертки с трехкомпонентной рукояткой</a></li>
+						<li><a href="#">Отвертки с деревянной рукояткой</a></li>
+						<li><a href="#">Отвертки плоские</a></li>
+					</ul>
+				</li>
+				<li><a href="#">Пневматическое оборудование</a>
+					<ul>
+						<li><a href="#">→ Ключи</a></li>
+						<li><a href="#">→ Головки торцевые и аксессуары</a></li>
+						<li><a href="#">→ Отвертки</a></li>
+						<li><a href="#">Отвертки с трехкомпонентной рукояткой</a></li>
+						<li><a href="#">Отвертки с деревянной рукояткой</a></li>
+						<li><a href="#">Отвертки плоские</a></li>
+					</ul>
+				</li>
+				<li><a href="#">Обработка и эксплуатация труб</a>
+					<ul>
+						<li><a href="#">→ Ключи</a></li>
+						<li><a href="#">→ Головки торцевые и аксессуары</a></li>
+						<li><a href="#">→ Отвертки</a></li>
+						<li><a href="#">Отвертки с трехкомпонентной рукояткой</a></li>
+						<li><a href="#">Отвертки с деревянной рукояткой</a></li>
+						<li><a href="#">Отвертки плоские</a></li>
+					</ul>
+				</li>
+				<li><a href="#">Электроинструмент</a>
+					<ul>
+						<li><a href="#">→ Ключи</a></li>
+						<li><a href="#">→ Головки торцевые и аксессуары</a></li>
+						<li><a href="#">→ Отвертки</a></li>
+						<li><a href="#">Отвертки с трехкомпонентной рукояткой</a></li>
+						<li><a href="#">Отвертки с деревянной рукояткой</a></li>
+						<li><a href="#">Отвертки плоские</a></li>
+					</ul>
+				</li>
+				<li><a href="#">Оснастка к инструменту и станкам</a>
+					<ul>
+						<li><a href="#">→ Ключи</a></li>
+						<li><a href="#">→ Головки торцевые и аксессуары</a></li>
+						<li><a href="#">→ Отвертки</a></li>
+						<li><a href="#">Отвертки с трехкомпонентной рукояткой</a></li>
+						<li><a href="#">Отвертки с деревянной рукояткой</a></li>
+						<li><a href="#">Отвертки плоские</a></li>
+					</ul>
+				</li>
+				<li><a href="#">Крепежная техника</a>
+					<ul>
+						<li><a href="#">→ Ключи</a></li>
+						<li><a href="#">→ Головки торцевые и аксессуары</a></li>
+						<li><a href="#">→ Отвертки</a></li>
+						<li><a href="#">Отвертки с трехкомпонентной рукояткой</a></li>
+						<li><a href="#">Отвертки с деревянной рукояткой</a></li>
+						<li><a href="#">Отвертки плоские</a></li>
+					</ul>
+				</li>
+				<li><a href="#">Пневматическое оборудование</a>
+					<ul>
+						<li><a href="#">→ Ключи</a></li>
+						<li><a href="#">→ Головки торцевые и аксессуары</a></li>
+						<li><a href="#">→ Отвертки</a></li>
+						<li><a href="#">Отвертки с трехкомпонентной рукояткой</a></li>
+						<li><a href="#">Отвертки с деревянной рукояткой</a></li>
+						<li><a href="#">Отвертки плоские</a></li>
+					</ul>
+				</li>
+				<li><a href="#">Обработка и эксплуатация труб</a>
+					<ul>
+						<li><a href="#">→ Ключи</a></li>
+						<li><a href="#">→ Головки торцевые и аксессуары</a></li>
+						<li><a href="#">→ Отвертки</a></li>
+						<li><a href="#">Отвертки с трехкомпонентной рукояткой</a></li>
+						<li><a href="#">Отвертки с деревянной рукояткой</a></li>
+						<li><a href="#">Отвертки плоские</a></li>
+					</ul>
+				</li>
+			</ul>
+<script language="JavaScript">
+$(document).ready(function() {
+    $(".topnav").accordion({
+        accordion:false,
+        speed: 500,
+        closedSign: '+',
+        openedSign: '-',
+
+    });
+});
+</script>
+  <aside id="lefter">
+    <div>
+		<h4 class="h_recommend">НОВОСТИ</h4>
+		<div class="lefter-cart col-md-12 col-sm-6">
+			<a href="#"><div><img class="lefter-img" src="img/news.png"></div></a>
+			<h4>Раз - заклепка, два - <br>заклепка!</h4>
+			<p>Какие инструменты выбирать? <br> В последнее время на сайт стало поступать много вопросов от женщин, да и мобильный телефон</p>
+			<div class="btn-group" role="group" aria-label="...">
+				<button type="button" class="btn btn-warning">Подробнее</button>
+				<button type="button" class="btn btn-success"><img src="img/arrow-more.png"></button>
+			</div>
+		</div>
+	</div>
+    <div>
+		<div class="lefter-cart  col-md-12 col-sm-6">
+			<a href="#"><div><img class="lefter-img" src="img/news2.png"></div></a>
+			<h4>Раз - заклепка, два - <br>заклепка!</h4>
+			<p>Какие инструменты выбирать? <br> В последнее время на сайт стало поступать много вопросов от женщин, да и мобильный телефон</p>
+			<div class="btn-group" role="group" aria-label="...">
+				<button type="button" class="btn btn-warning">Подробнее</button>
+				<button type="button" class="btn btn-success"><img src="img/arrow-more.png"></button>
+			</div>
+		</div>
+	</div>
+  </aside>
+</div>
+</div>
+</div>
+<div class="container-fluid">
+	<h4 class="h_recommend">ПЕРСОНАЛЬНЫЕ РЕКОМЕНДАЦИИ</h4>
+	<div class="col-md-3  col-sm-4">
+			<div>
+				<div class="leader-cart">
+					<a href="#">
+						<img class="saleoff" src="img/sale.png">
+					</a>
+					<p style="padding-top:50px;"><b>Многофункциональный инструмент</b> Dremel 3000. F5620522214</p><br>
+				<p style="text-align: center; font-size:20px;">3 500 руб./шт.</p>
+				<p style="text-align: center; font-size:18px; color:#a39087;"><strike>4 199 руб./шт.</strike></p><br>
+					<form class="bought">
+						<button type="button" class="btn btn-danger">В корзину</button>
+						<button type="button" class="btn btn-default"><i class="glyphicon glyphicon-heart-empty"></i></button>
+						<button type="button" class="btn btn-default"><i class="glyphicon glyphicon-transfer"></i></button>
+					</form>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-3 col-sm-4">
+
+		<div>
+			<div class="leader-cart">
+				<a href="#">
+					<img class="saleoff" src="img/sale.png">
+				</a>
+				<p style="padding-top:50px;"><b>Многофункциональный инструмент</b> Dremel 3000. F5620522214</p><br>
+				<p style="text-align: center; font-size:20px;">3 500 руб./шт.</p>
+				<p style="text-align: center; font-size:18px; color:#a39087;"><strike>4 199 руб./шт.</strike></p><br>
+					<form class="bought">
+						<button type="button" class="btn btn-danger">В корзину</button>
+						<button type="button" class="btn btn-default"><i class="glyphicon glyphicon-heart-empty"></i></button>
+						<button type="button" class="btn btn-default"><i class="glyphicon glyphicon-transfer"></i></button>
+					</form>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-3 col-sm-4">
+
+		<div>
+			<div class="leader-cart">
+				<a href="#">
+					<img class="saleoff" src="img/sale.png">
+				</a>
+				<p style="padding-top:50px;"><b>Многофункциональный инструмент</b> Dremel 3000. F5620522214</p><br>
+				<p style="text-align: center; font-size:20px;">3 500 руб./шт.</p>
+				<p style="text-align: center; font-size:18px; color:#a39087;"><strike>4 199 руб./шт.</strike></p><br>
+					<form class="bought">
+						<button type="button" class="btn btn-danger">В корзину</button>
+						<button type="button" class="btn btn-default"><i class="glyphicon glyphicon-heart-empty"></i></button>
+						<button type="button" class="btn btn-default"><i class="glyphicon glyphicon-transfer"></i></button>
+					</form>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-md-3 hidden-sm">
+
+		<div>
+			<div class="leader-cart">
+				<a href="#">
+					<img class="saleoff" src="img/sale.png">
+				</a>
+				<p style="padding-top:50px;"><b>Многофункциональный инструмент</b> Dremel 3000. F5620522214</p><br>
+				<p style="text-align: center; font-size:20px;">3 500 руб./шт.</p>
+				<p style="text-align: center; font-size:18px; color:#a39087;"><strike>4 199 руб./шт.</strike></p><br>
+					<form class="bought">
+						<button type="button" class="btn btn-danger">В корзину</button>
+						<button type="button" class="btn btn-default"><i class="glyphicon glyphicon-heart-empty"></i></button>
+						<button type="button" class="btn btn-default"><i class="glyphicon glyphicon-transfer"></i></button>
+					</form>
+				</div>
+			</div>
+		</div>
+		<div class="show-more">
+		<a>показать еще &gt;&gt;</a>
+	</div>
+</div>
+<!-- Карусель-->
+<div class="container-fluid">
+	<div class="col-md-offset-1 col-md-10">
+		<h3 class="h_recommend">Бренды</h3>
+		<section class="center slider">
+			<div>
+					<img src="img/isover.png">
+			</div>
+			<div>
+					<img src="img/atem.png">
+			</div>
+			<div>
+					<img src="img/bosch.png">
+			</div>
+			<div>
+					<img src="img/isover.png">
+			</div>
+			<div>
+					<img src="img/atem.png">
+			</div>
+			<div>
+					<img src="img/bosch.png">
+			</div>
+			<div>
+					<img src="img/isover.png">
+			</div>
+			<div>
+					<img src="img/atem.png">
+			</div>
+			<div>
+					<img src="img/bosch.png">
+			</div>
+		</section>
+	</div>
+</div>
+<div class="container-fluid">
+	<div class="col-md-offset-1 col-md-10">
+	 	<h3 class="h_recommend">Наши сертификаты</h3>
+		<section class="certificate slider">
+			<div>
+				<img src="img/sertificate.png">
+			</div>
+			<div>
+				<img src="img/sertificate.png">
+			</div>
+			<div>
+				<img src="img/sertificate.png">
+			</div>
+			<div>
+				<img src="img/sertificate.png">
+			</div>
+			<div>
+				<img src="img/sertificate.png">
+			</div>
+		 </section>
+	</div>
+</div>
+  <script src="js/slick.js" type="text/javascript" charset="utf-8"></script>
+  <script type="text/javascript">
+    $(document).on('ready', function() {
+      $(".center").slick({
+        dots: true,
+        infinite: true,
+        centerMode: true,
+         slidesToShow: 5,
+		slidesToScroll: 1,
+		autoplay: true,
+		autoplaySpeed: 3000,
+      });
+    });
+
+  </script>
+    <script type="text/javascript">
+    $(document).on('ready', function() {
+      $(".certificate").slick({
+        dots: true,
+        infinite: true,
+        centerMode: true,
+        slidesToShow: 4,
+		slidesToScroll: 1,
+		autoplay: true,
+		autoplaySpeed: 3000,
+      });
+    });
+  </script>
+
+  <footer>
+	<div id="footer-info">
+		<div class="col-sm-3">
+			<div class="">
+				<a href="#"><img src="img/logo-bottom.png"></a>
+			</div>
+		</div>
+		<div class="col-sm-3">
+			<ul>
+				<li><a href="#">О компании </a></li>
+				<li><a href="#">Получение и оплата </a></li>
+				<li><a href="#">Компаниям </a></li>
+				<li><a href="#">Новости </a></li>
+				<li><a href="#">Контакты</a></li>
+			</ul>
+		</div>
+		<div class="col-sm-3">
+			<p href="#">Тел.: (495) 215-2458</p>
+			<p>ООО “Папатулз”</p>
+			<p>40002, г. Волгоград, ул. Тимирязева, 9</p>
+			<p>Время работы:</p>
+			<p>Пн. - Вс. с 8:00 - 22:00</p>
+
+			</p>
+		</div>
+		<div class="col-sm-3">
+			<div class="compact-item">
+				<ul class="list-inline">
+					<li><a href="#"><img src="img/vk.png"></a></li>
+					<li><a href="#"><img src="img/facebook.png"></a></li>
+					<li><a href="#"><img src="img/insta.png"></a></li>
+				</ul>
+			</div>
+			<div class="cart-item">
+				<ul class="list-inline">
+					<li><a href="#"><img src="img/visa.png"></a></li>
+					<li><a href="#"><img src="img/mastercard.png"></a></li>
+					<li><a href="#"><img src="img/maestro.png"></a></li>
+					<li><a href="#"><img src="img/yandex.png"></a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div id="footer-item">
+		<div class="footer-bottom col-md-3"><button type="button" class="btn btn-success" style="padding: 0 30px">Обратная связь</button></div>
+		<div class="footer-bottom col-md-3">
+			<form>
+			  <div class="form">
+				<p>Email address<p>
+				<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+			  </div>
+			</form>
+		</div>
+		<div id="basket-bottom">
+    <div id="bask-like">
+        <div id="bask"><a href="#"><img src="img/basket-bottom.png">Ваша корзина <span>(0)</span></a></div>
+        <div><a href="#"><img src="img/liked-bottom.png">Избранное</a></div>
+    </div>
+	</div>
+		<div class="footer-bottom col-md-3">
+
+		</div>
+	</div>
+</footer>
+<div class="fixed_button">button</div>
+</body>

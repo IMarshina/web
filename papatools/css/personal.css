@@ -1,0 +1,117 @@
+
+/*--== Pages ==--*/
+#lk-cont{
+	position: relative;
+	margin-bottom: -40px;
+	overflow: hidden;
+}
+#lk-cont > div{float: left;}
+#bonus_block{
+	width: 140px;
+	height: 35px;
+	padding: 18px;
+	float: right;
+	margin-top: -90px;
+	background: white;
+	border: 1px solid #c3c3c3;
+	border-radius: 4px;
+	color: #29abe1;
+}
+#bonus_block img{
+    padding: 5px 18px 18px 0;
+    float: left;
+}
+#bonus_block span{font-size: 18px; font-family: OpenSans-Semibold;}
+
+#lk-menu{font-size: 18px; font-family: OpenSans-Semibold; margin-bottom: 60px;}
+#lk-menu li{display: inline-block; margin-right: 30px;}
+#lk-menu li a{color: #8d8d8d; text-decoration: none; }
+.lk-selected a{font-family: OpenSans-Bold; color: #292929 !important;}
+
+/* Left Container */
+#lk-left{margin: -50px 150px 0 30px;}
+.form_lk { margin: 50px 0; }
+.form_lk > div{
+	overflow: hidden;
+	margin-bottom: 7px;
+	font-family: OpenSans-Bold;
+}
+.form_lk div div{float: left;width: 120px;}
+#avatar_cont{
+    width: 100px !important;
+    height: 100px;
+    border: 1px solid #c3c3c3;
+    border-radius: 5px;
+    margin-bottom: 3px !important;
+    font-size: 36px;
+    color: #a8a8a8;
+    text-align: center;
+    line-height: 100px;
+    font-family: OpenSans-Regular;
+}
+.form_lk input, .form_lk select{
+    width: 203px;
+    padding: 0 20px;
+	height: 23px;
+	border: 1px solid #adadad;
+	border-radius: 3px;
+	color: #bba9b1;
+}
+.form_lk input:focus, .form_lk select:focus{color: #292929}
+.form_lk input[name="pass_submit"]{
+    border: 2px solid #0074bc;
+    color: #0074bc;
+    background: white;
+    box-sizing: content-box;
+    cursor: pointer;
+    font-family: OpenSans-Semibold;
+    padding: 3px 20px;
+}
+.form_lk input[type="submit"]:hover{color: white; background: #0074bc;}
+.form_lk input[name="educ_submit"]{
+    border: none;
+    color: white;
+    background: #c3c3c3;
+    box-sizing: content-box;
+    cursor: pointer;
+    font-family: OpenSans-Semibold;
+    padding: 3px 20px;
+}
+.form_lk select{box-sizing:content-box}
+#educ_descr{
+	font-size: 12px;
+	font-family: OpenSans-Regular;
+	color: #747474;
+	margin-left: 145px;
+}
+.form_lk input[type="checkbox"]{display: none;}
+.form_lk label {
+    display: block;
+    height: 25px;
+    width: 25px;
+    background: white;
+    border: 1px solid #c3c3c3;
+    border-radius: 5px;
+    margin-right: 20px;
+    float: left;
+}
+input[type="checkbox"] + label::before{
+    content: "";
+    display: block;
+    float: left;
+    height: 20px;
+    width: 24px;
+}
+
+input[type="checkbox"]:checked + label::before {
+    background-image: url(../icons/chek-ok.png);
+}
+#lk_subcr{
+	color: #747474;
+	font-family: OpenSans-Semibold;
+}
+
+/* Right Container */
+#lk-right p{font-family: OpenSans-Bold;}
+#lk-right img{margin: 16px 0;}
+#lk-right div{margin: 25px 0 100px;}

@@ -1,0 +1,45 @@
+/* Catalog CSS */
+#item-h1-seo{
+    padding-bottom: 15px;
+    border-bottom: 1px solid #c3c3c3;
+    margin-bottom: 38px;
+    overflow: hidden;
+}
+#item-h1{ float: left; width: 250px; }
+#item-h1 h1{margin: 0; padding: 0; border:none; line-height: 1.2;}
+#item-seo{ margin: 6px 0 0 280px; font-family: OpenSans-Semibold;}
+
+#cat_sort{
+    font-family: OpenSans-Semibold;
+	margin: -20px 0 20px;
+}
+#cat_sort select{
+	border: 1px solid #c3c3c3;
+	border-radius: 5px;
+	font-family: OpenSans-Semibold;
+	font-size: 14px;
+	padding: 5px;
+	margin-left: 4px;
+}
+
+#cat-cont{overflow: hidden;margin-bottom: -65px;}
+#cat-cont > div{
+	border-top: 1px solid #c3c3c3;
+	margin: -10px 20px 10px;
+	float: left;
+}
+#cat-cont .leader-cart{margin: 20px 0px; padding: 1px 16px 18px;}
+#cat-cont .leader-cart a div{height: 140px; text-align: center;}
+#cat-cont .leader-cart:hover{outline: 2px solid #42b2e5;}
+#cat-cont .leader-cart p { height: 60px; }
+
+.item-bonus{color:#42b2e5; margin: 20px 0 -10px;}
+.item-bonus img{float: left; padding-right: 15px;}
+.item-bonus .b-num{
+	display: block;
+	float: left;
+	font-family: OpenSans-Bold;
+	font-size: 24px;
+	margin: -14px 40px -7px 0;
+}
+
